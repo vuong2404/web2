@@ -1,0 +1,49 @@
+:root {
+    --white-color: #fff ;
+    --black-color: #000 ; 
+    --text-color: #333 ; 
+    --main-color: #fa5030 ;
+    --border-color: #ccc ; 
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html { 
+    /* font-size: 100%; --> 16px */ 
+    font-size: 62.5%;  /*10px*/   
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+} 
+
+img {
+    vertical-align: middle;
+}
+.btn {
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: var(--text-color);
+}
+
+
+/*margin-bottom: 16px*/
+.mb-16 { 
+    margin-bottom: 16px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.align-end {
+    text-align: end;
+}
